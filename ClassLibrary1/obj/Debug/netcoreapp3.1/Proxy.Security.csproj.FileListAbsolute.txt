@@ -1,0 +1,13 @@
+C:\lMartinez\Proyects\MIsFacturas\ClassLibrary1\bin\Debug\netcoreapp3.1\Proxy.Security.deps.json
+C:\lMartinez\Proyects\MIsFacturas\ClassLibrary1\bin\Debug\netcoreapp3.1\Proxy.Security.dll
+C:\lMartinez\Proyects\MIsFacturas\ClassLibrary1\bin\Debug\netcoreapp3.1\Proxy.Security.pdb
+C:\lMartinez\Proyects\MIsFacturas\ClassLibrary1\bin\Debug\netcoreapp3.1\Proxy.Base.dll
+C:\lMartinez\Proyects\MIsFacturas\ClassLibrary1\bin\Debug\netcoreapp3.1\Proxy.Base.pdb
+C:\lMartinez\Proyects\MIsFacturas\ClassLibrary1\obj\Debug\netcoreapp3.1\Proxy.Security.csprojAssemblyReference.cache
+C:\lMartinez\Proyects\MIsFacturas\ClassLibrary1\obj\Debug\netcoreapp3.1\Proxy.Security.AssemblyInfoInputs.cache
+C:\lMartinez\Proyects\MIsFacturas\ClassLibrary1\obj\Debug\netcoreapp3.1\Proxy.Security.AssemblyInfo.cs
+C:\lMartinez\Proyects\MIsFacturas\ClassLibrary1\obj\Debug\netcoreapp3.1\Proxy.Security.csproj.CopyComplete
+C:\lMartinez\Proyects\MIsFacturas\ClassLibrary1\obj\Debug\netcoreapp3.1\Proxy.Security.dll
+C:\lMartinez\Proyects\MIsFacturas\ClassLibrary1\obj\Debug\netcoreapp3.1\Proxy.Security.pdb
+C:\lMartinez\Proyects\MIsFacturas\ClassLibrary1\bin\Debug\netcoreapp3.1\SecurityModel.dll
+C:\lMartinez\Proyects\MIsFacturas\ClassLibrary1\bin\Debug\netcoreapp3.1\SecurityModel.pdb

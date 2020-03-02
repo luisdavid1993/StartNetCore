@@ -1,0 +1,8 @@
+C:\lMartinez\Proyects\MisFacturas\Proxy.Base\bin\Release\netcoreapp3.1\Proxy.Base.deps.json
+C:\lMartinez\Proyects\MisFacturas\Proxy.Base\bin\Release\netcoreapp3.1\Proxy.Base.dll
+C:\lMartinez\Proyects\MisFacturas\Proxy.Base\bin\Release\netcoreapp3.1\Proxy.Base.pdb
+C:\lMartinez\Proyects\MisFacturas\Proxy.Base\obj\Release\netcoreapp3.1\Proxy.Base.csprojAssemblyReference.cache
+C:\lMartinez\Proyects\MisFacturas\Proxy.Base\obj\Release\netcoreapp3.1\Proxy.Base.AssemblyInfoInputs.cache
+C:\lMartinez\Proyects\MisFacturas\Proxy.Base\obj\Release\netcoreapp3.1\Proxy.Base.AssemblyInfo.cs
+C:\lMartinez\Proyects\MisFacturas\Proxy.Base\obj\Release\netcoreapp3.1\Proxy.Base.dll
+C:\lMartinez\Proyects\MisFacturas\Proxy.Base\obj\Release\netcoreapp3.1\Proxy.Base.pdb

@@ -1,0 +1,17 @@
+C:\lMartinez\Proyects\MIsFacturas\IocSecurity\bin\Debug\netcoreapp3.1\IocSecurity.deps.json
+C:\lMartinez\Proyects\MIsFacturas\IocSecurity\bin\Debug\netcoreapp3.1\IocSecurity.dll
+C:\lMartinez\Proyects\MIsFacturas\IocSecurity\bin\Debug\netcoreapp3.1\IocSecurity.pdb
+C:\lMartinez\Proyects\MIsFacturas\IocSecurity\bin\Debug\netcoreapp3.1\Proxy.Base.dll
+C:\lMartinez\Proyects\MIsFacturas\IocSecurity\bin\Debug\netcoreapp3.1\Proxy.Security.dll
+C:\lMartinez\Proyects\MIsFacturas\IocSecurity\bin\Debug\netcoreapp3.1\SecurityBussines.dll
+C:\lMartinez\Proyects\MIsFacturas\IocSecurity\bin\Debug\netcoreapp3.1\SecurityBussines.pdb
+C:\lMartinez\Proyects\MIsFacturas\IocSecurity\bin\Debug\netcoreapp3.1\Proxy.Base.pdb
+C:\lMartinez\Proyects\MIsFacturas\IocSecurity\bin\Debug\netcoreapp3.1\Proxy.Security.pdb
+C:\lMartinez\Proyects\MIsFacturas\IocSecurity\obj\Debug\netcoreapp3.1\IocSecurity.csprojAssemblyReference.cache
+C:\lMartinez\Proyects\MIsFacturas\IocSecurity\obj\Debug\netcoreapp3.1\IocSecurity.AssemblyInfoInputs.cache
+C:\lMartinez\Proyects\MIsFacturas\IocSecurity\obj\Debug\netcoreapp3.1\IocSecurity.AssemblyInfo.cs
+C:\lMartinez\Proyects\MIsFacturas\IocSecurity\obj\Debug\netcoreapp3.1\IocSecurity.csproj.CopyComplete
+C:\lMartinez\Proyects\MIsFacturas\IocSecurity\obj\Debug\netcoreapp3.1\IocSecurity.dll
+C:\lMartinez\Proyects\MIsFacturas\IocSecurity\obj\Debug\netcoreapp3.1\IocSecurity.pdb
+C:\lMartinez\Proyects\MIsFacturas\IocSecurity\bin\Debug\netcoreapp3.1\SecurityModel.dll
+C:\lMartinez\Proyects\MIsFacturas\IocSecurity\bin\Debug\netcoreapp3.1\SecurityModel.pdb

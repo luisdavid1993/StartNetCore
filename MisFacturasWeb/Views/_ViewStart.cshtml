@@ -1,0 +1,28 @@
+﻿@{
+    string ValueCotext = "";
+    bool showLayout = true;
+    if (Context.User.Claims != null && Context.User.Claims.Any())
+    {
+        ValueCotext = Context.User.Claims.ToList().Where(x => x.Type == "ShowLayout").FirstOrDefault().Value;
+    }
+
+    if (ValueCotext == "")
+    {
+        showLayout = true;
+    }
+    else
+    {
+        showLayout = Convert.ToBoolean(ValueCotext);
+    }
+    if (showLayout)
+    {
+        Layout = "~/Views/Shared/_LayoutFull.cshtml";
+    }
+    else 
+    {
+     Layout = "~/Views/Shared/_Layout.cshtml";
+    }
+
+
+
+}

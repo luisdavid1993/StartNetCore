@@ -1,0 +1,11 @@
+C:\lMartinez\Proyects\MIsFacturas\Proxy.ControlIA\bin\Debug\netcoreapp3.1\Proxy.ControlIA.deps.json
+C:\lMartinez\Proyects\MIsFacturas\Proxy.ControlIA\bin\Debug\netcoreapp3.1\Proxy.ControlIA.dll
+C:\lMartinez\Proyects\MIsFacturas\Proxy.ControlIA\bin\Debug\netcoreapp3.1\Proxy.ControlIA.pdb
+C:\lMartinez\Proyects\MIsFacturas\Proxy.ControlIA\bin\Debug\netcoreapp3.1\Proxy.Base.dll
+C:\lMartinez\Proyects\MIsFacturas\Proxy.ControlIA\bin\Debug\netcoreapp3.1\Proxy.Base.pdb
+C:\lMartinez\Proyects\MIsFacturas\Proxy.ControlIA\obj\Debug\netcoreapp3.1\Proxy.ControlIA.csprojAssemblyReference.cache
+C:\lMartinez\Proyects\MIsFacturas\Proxy.ControlIA\obj\Debug\netcoreapp3.1\Proxy.ControlIA.AssemblyInfoInputs.cache
+C:\lMartinez\Proyects\MIsFacturas\Proxy.ControlIA\obj\Debug\netcoreapp3.1\Proxy.ControlIA.AssemblyInfo.cs
+C:\lMartinez\Proyects\MIsFacturas\Proxy.ControlIA\obj\Debug\netcoreapp3.1\Proxy.ControlIA.csproj.CopyComplete
+C:\lMartinez\Proyects\MIsFacturas\Proxy.ControlIA\obj\Debug\netcoreapp3.1\Proxy.ControlIA.dll
+C:\lMartinez\Proyects\MIsFacturas\Proxy.ControlIA\obj\Debug\netcoreapp3.1\Proxy.ControlIA.pdb
