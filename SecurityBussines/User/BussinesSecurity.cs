@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Proxy.Security.Repositoty;
-using SecurityBussines.Iuser;
+﻿using Proxy.Security.Repositoty;
+using SecurityBussines.User.Iuser;
 
 namespace SecurityBussines.User
 {
@@ -12,6 +9,11 @@ namespace SecurityBussines.User
         {
             UserRepository usrRepository = new UserRepository();
            return  usrRepository.ValidToken(CompanyId,token,appId).Result;
+        }
+        public SecurityModel.UserAccess ValidateToken(int CompanyId, string token)
+        {
+            UserRepository usrRepository = new UserRepository();
+            return usrRepository.ValidToken(CompanyId, token).Result;
         }
 
     }

@@ -6,3 +6,9 @@ C:\lMartinez\Proyects\MisFacturas\Proxy.Base\obj\Release\netcoreapp3.1\Proxy.Bas
 C:\lMartinez\Proyects\MisFacturas\Proxy.Base\obj\Release\netcoreapp3.1\Proxy.Base.AssemblyInfo.cs
 C:\lMartinez\Proyects\MisFacturas\Proxy.Base\obj\Release\netcoreapp3.1\Proxy.Base.dll
 C:\lMartinez\Proyects\MisFacturas\Proxy.Base\obj\Release\netcoreapp3.1\Proxy.Base.pdb
+C:\lMartinez\Proyects\MIsFacturas\Proxy.Base\bin\Release\netcoreapp3.1\SecurityModel.dll
+C:\lMartinez\Proyects\MIsFacturas\Proxy.Base\bin\Release\netcoreapp3.1\System.Diagnostics.EventLog.dll
+C:\lMartinez\Proyects\MIsFacturas\Proxy.Base\bin\Release\netcoreapp3.1\System.ServiceModel.Http.dll
+C:\lMartinez\Proyects\MIsFacturas\Proxy.Base\bin\Release\netcoreapp3.1\SecurityModel.pdb
+C:\lMartinez\Proyects\MIsFacturas\Proxy.Base\bin\Release\netcoreapp3.1\System.Diagnostics.EventLog.xml
+C:\lMartinez\Proyects\MIsFacturas\Proxy.Base\obj\Release\netcoreapp3.1\Proxy.Base.csproj.CopyComplete

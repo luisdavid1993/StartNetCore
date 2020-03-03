@@ -3,7 +3,10 @@
     bool showLayout = true;
     if (Context.User.Claims != null && Context.User.Claims.Any())
     {
-        ValueCotext = Context.User.Claims.ToList().Where(x => x.Type == "ShowLayout").FirstOrDefault().Value;
+        if (Context.User.Claims.ToList().Where(x => x.Type == "ShowLayout").Count() > 0)
+        {
+            ValueCotext = Context.User.Claims.ToList().Where(x => x.Type == "ShowLayout").FirstOrDefault().Value;
+        }
     }
 
     if (ValueCotext == "")
@@ -18,9 +21,9 @@
     {
         Layout = "~/Views/Shared/_LayoutFull.cshtml";
     }
-    else 
+    else
     {
-     Layout = "~/Views/Shared/_Layout.cshtml";
+        Layout = "~/Views/Shared/_Layout.cshtml";
     }
 
 

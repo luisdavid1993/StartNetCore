@@ -13,3 +13,5 @@ C:\lMartinez\Proyects\MIsFacturas\IocSecurity\obj\Release\netcoreapp3.1\IocSecur
 C:\lMartinez\Proyects\MIsFacturas\IocSecurity\obj\Release\netcoreapp3.1\IocSecurity.csproj.CopyComplete
 C:\lMartinez\Proyects\MIsFacturas\IocSecurity\obj\Release\netcoreapp3.1\IocSecurity.dll
 C:\lMartinez\Proyects\MIsFacturas\IocSecurity\obj\Release\netcoreapp3.1\IocSecurity.pdb
+C:\lMartinez\Proyects\MIsFacturas\IocSecurity\bin\Release\netcoreapp3.1\SecurityModel.dll
+C:\lMartinez\Proyects\MIsFacturas\IocSecurity\bin\Release\netcoreapp3.1\SecurityModel.pdb

@@ -11,3 +11,5 @@ C:\lMartinez\Proyects\MIsFacturas\SecurityBussines\obj\Release\netcoreapp3.1\Sec
 C:\lMartinez\Proyects\MIsFacturas\SecurityBussines\obj\Release\netcoreapp3.1\SecurityBussines.csproj.CopyComplete
 C:\lMartinez\Proyects\MIsFacturas\SecurityBussines\obj\Release\netcoreapp3.1\SecurityBussines.dll
 C:\lMartinez\Proyects\MIsFacturas\SecurityBussines\obj\Release\netcoreapp3.1\SecurityBussines.pdb
+C:\lMartinez\Proyects\MIsFacturas\SecurityBussines\bin\Release\netcoreapp3.1\SecurityModel.dll
+C:\lMartinez\Proyects\MIsFacturas\SecurityBussines\bin\Release\netcoreapp3.1\SecurityModel.pdb

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.ServiceModel;
 using System.ServiceModel.Channels;
 using System.Text;
@@ -11,8 +12,9 @@ namespace Proxy.Base
           where TChannel : IClientChannel
     {
         protected ChannelFactory<TChannel> ChannelFactoryRelay;
-        protected Binding binding = null;
+        protected BasicHttpBinding binding = null;
         protected string _endpointUrl = string.Empty;
+        protected static EventLog eventLog;
 
         public void SetHTTP(HttpConfigureServices httpConfigureServices)
         {
@@ -20,20 +22,27 @@ namespace Proxy.Base
             this.binding = new BasicHttpBinding();
             setcloseTimeout(httpConfigureServices.closeTimeout);
             setopenTimeout(httpConfigureServices.openTimeout);
-            HttpTransportBindingElement httpTransportBindingElement = new HttpTransportBindingElement();
-            setmaxReceivedMessageSize(httpConfigureServices.maxReceivedMessageSize,ref httpTransportBindingElement);
-            setmaxBufferSize(httpConfigureServices.maxBufferSize, ref httpTransportBindingElement);
-            this.binding.CreateBindingElements().Add(httpTransportBindingElement);
+            Transfermode(httpConfigureServices);
+            setmaxReceivedMessageSize(httpConfigureServices.maxReceivedMessageSize);
+            setmaxBufferSize(httpConfigureServices.maxBufferSize);
             var endpoint = new EndpointAddress(_endpointUrl);
-            ChannelFactoryRelay = new ChannelFactory<TChannel>(binding, endpoint);
-            ChannelFactoryRelay.Credentials.UserName.UserName = httpConfigureServices.userName;
-            ChannelFactoryRelay.Credentials.UserName.Password = httpConfigureServices.password;
+            ChannelFactoryRelay = new ChannelFactory<TChannel>(this.binding, endpoint);
+            ChannelFactoryRelay.Credentials.UserName.UserName =string.IsNullOrWhiteSpace(httpConfigureServices.userName)?null: httpConfigureServices.userName;
+            ChannelFactoryRelay.Credentials.UserName.Password = string.IsNullOrWhiteSpace(httpConfigureServices.password)?null: httpConfigureServices.password;
         }
-
+      
         public void Dispose()
         {
             Dispose(false);
             GC.SuppressFinalize(this);
+        }
+
+        public void Transfermode(HttpConfigureServices httpConfigureServices)
+        {
+            if (httpConfigureServices.maxReceivedMessageSize.HasValue || httpConfigureServices.maxBufferSize.HasValue)
+            {
+                this.binding.TransferMode = TransferMode.Streamed;
+            }
         }
         protected virtual void Dispose(bool prmDisposed)
         {
@@ -62,19 +71,19 @@ namespace Proxy.Base
             }
 
         }
-        private void setmaxReceivedMessageSize(long? maxReceivedMessageSize,ref HttpTransportBindingElement httpTransportBindingElement)
+        private void setmaxReceivedMessageSize(long? maxReceivedMessageSize)
         {
             if (maxReceivedMessageSize.HasValue)
             {
-                httpTransportBindingElement.MaxReceivedMessageSize = maxReceivedMessageSize.Value;
+                this.binding.MaxReceivedMessageSize = maxReceivedMessageSize.Value;
             }
 
         }
-        private void setmaxBufferSize(int? maxBufferSize, ref HttpTransportBindingElement httpTransportBindingElement)
+        private void setmaxBufferSize(int? maxBufferSize)
         {
             if (maxBufferSize.HasValue)
             {
-                httpTransportBindingElement.MaxBufferSize = maxBufferSize.Value;
+                this.binding.MaxBufferSize = maxBufferSize.Value;
             }
 
         }

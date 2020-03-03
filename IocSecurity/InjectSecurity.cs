@@ -1,9 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Microsoft.Extensions.DependencyInjection;
-using SecurityBussines.Iuser;
+﻿using Microsoft.Extensions.DependencyInjection;
+using SecurityBussines.Authenticator;
+using SecurityBussines.Authenticator.IAuthenticator;
 using SecurityBussines.User;
+using SecurityBussines.User.Iuser;
 
 namespace IocSecurity
 {
@@ -12,6 +11,7 @@ namespace IocSecurity
         public static IServiceCollection AddRegistration(this IServiceCollection services)
         {
             services.AddSingleton<Isecurity, BussinesSecurity>();
+            services.AddSingleton<IAuthenticatorBussines, AuthenticatorBussines>();
             return services;
         }
     }

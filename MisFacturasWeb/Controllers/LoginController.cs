@@ -1,40 +1,45 @@
-﻿using Microsoft.AspNetCore.Authentication;
+﻿using System;
+using common;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.Extensions.Configuration;
 using MisFacturasWeb.Models;
 using MisFacturasWeb.TokenProvider;
+using SecurityBussines.Authenticator.IAuthenticator;
+using SecurityModel;
 
 namespace MisFacturasWeb.Controllers
 {
     public class LoginController: Controller
     {
-        public const string SessionKeyName = "jwToken";
-        public const string SessionKeyNameExternal = "jwTokenExternal";
-        public const string SessionKeyCompany = "CompanyId";
-        private IConfiguration configuration;
-        public LoginController(IConfiguration iConfig)
+        public const string SessionKeyName = "SessionUser";
+        public const string SessionKeyAppId = "EINVO";
+        private IAuthenticatorBussines authenticatorBussines;
+        public LoginController(IAuthenticatorBussines _authenticatorBussines)
         {
-            this.configuration = iConfig;
+            this.authenticatorBussines = _authenticatorBussines;
         }
-        public IActionResult Index()
+        public IActionResult Loggin()
         {
-            if (!string.IsNullOrEmpty(HttpContext.Session.GetString(SessionKeyName)))
+            if (HttpContext.Session.Get(SessionKeyName) != null)
             {
-                HttpContext.Session.Remove(SessionKeyName);
+                HttpContext.Session.Clear();
             }
             return View();
         }
         [HttpPost]
-        public IActionResult Index(ErrorViewModel error)
+        public IActionResult Loggin(LogginModel logg)
         {
-            string token = configuration.GetSection("MySettings").GetSection("tokenJwt").Value;
-            int CompanyId = System.Convert.ToInt32(configuration.GetSection("MySettings").GetSection("CompanyId").Value.ToString());
-            
-            HttpContext.Session.SetString(SessionKeyName,token);
-            HttpContext.Session.SetInt32(SessionKeyCompany, CompanyId);
-            return RedirectToAction("Index", "Home", null);
+            UserAccess userAccess = authenticatorBussines.AutenticateUser(logg.Username, logg.Password, SessionKeyAppId);
+            if (userAccess != null && !string.IsNullOrEmpty(userAccess.TokenSession) && userAccess.User.CompanyId.HasValue)
+            {
+                byte[] sessionUser = ConvertData.FromObjectToArrayByte(userAccess);
+                HttpContext.Session.Set(SessionKeyName, sessionUser);
+                return RedirectToAction("Index", "Home", null);
+            }
+            return View();
         }
     }
 }

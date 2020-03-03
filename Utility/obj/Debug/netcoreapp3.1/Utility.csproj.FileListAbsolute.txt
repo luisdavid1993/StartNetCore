@@ -1,0 +1,2 @@
+C:\lMartinez\Proyects\MIsFacturas\Utility\obj\Debug\netcoreapp3.1\Utility.AssemblyInfoInputs.cache
+C:\lMartinez\Proyects\MIsFacturas\Utility\obj\Debug\netcoreapp3.1\Utility.AssemblyInfo.cs

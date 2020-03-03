@@ -127,11 +127,7 @@ C:\lMartinez\Proyects\MisFacturas\MisFacturasWeb\bin\Release\netcoreapp3.1\runti
 C:\lMartinez\Proyects\MisFacturas\MisFacturasWeb\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
 C:\lMartinez\Proyects\MisFacturas\MisFacturasWeb\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Cryptography.Pkcs.dll
 C:\lMartinez\Proyects\MisFacturas\MisFacturasWeb\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\lMartinez\Proyects\MisFacturas\MisFacturasWeb\bin\Release\netcoreapp3.1\Cenet.Auth.Identity.dll
 C:\lMartinez\Proyects\MisFacturas\MisFacturasWeb\bin\Release\netcoreapp3.1\Proxy.Base.dll
-C:\lMartinez\Proyects\MisFacturas\MisFacturasWeb\bin\Release\netcoreapp3.1\Cenet.Auth.Entities.dll
-C:\lMartinez\Proyects\MisFacturas\MisFacturasWeb\bin\Release\netcoreapp3.1\Cenet.Crosscutting.Auditing.dll
-C:\lMartinez\Proyects\MisFacturas\MisFacturasWeb\bin\Release\netcoreapp3.1\Cenet.Auth.Log.dll
 C:\lMartinez\Proyects\MisFacturas\MisFacturasWeb\bin\Release\netcoreapp3.1\Proxy.Base.pdb
 C:\lMartinez\Proyects\MisFacturas\MisFacturasWeb\obj\Release\netcoreapp3.1\MisFacturasWeb.csprojAssemblyReference.cache
 C:\lMartinez\Proyects\MisFacturas\MisFacturasWeb\obj\Release\netcoreapp3.1\staticwebassets\MisFacturasWeb.StaticWebAssets.Manifest.cache
@@ -147,7 +143,6 @@ C:\lMartinez\Proyects\MisFacturas\MisFacturasWeb\obj\Release\netcoreapp3.1\MisFa
 C:\lMartinez\Proyects\MisFacturas\MisFacturasWeb\obj\Release\netcoreapp3.1\Razor\Views\error\Index.cshtml.g.cs
 C:\lMartinez\Proyects\MisFacturas\MisFacturasWeb\obj\Release\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\lMartinez\Proyects\MisFacturas\MisFacturasWeb\obj\Release\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
-C:\lMartinez\Proyects\MisFacturas\MisFacturasWeb\obj\Release\netcoreapp3.1\Razor\Views\Login\Index.cshtml.g.cs
 C:\lMartinez\Proyects\MisFacturas\MisFacturasWeb\obj\Release\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\lMartinez\Proyects\MisFacturas\MisFacturasWeb\obj\Release\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\lMartinez\Proyects\MisFacturas\MisFacturasWeb\obj\Release\netcoreapp3.1\Razor\Views\Shared\_LayoutFull.cshtml.g.cs
@@ -171,3 +166,12 @@ C:\lMartinez\Proyects\MIsFacturas\MisFacturasWeb\bin\Release\netcoreapp3.1\IocSe
 C:\lMartinez\Proyects\MIsFacturas\MisFacturasWeb\bin\Release\netcoreapp3.1\Proxy.Security.pdb
 C:\lMartinez\Proyects\MIsFacturas\MisFacturasWeb\bin\Release\netcoreapp3.1\SecurityBussines.pdb
 C:\lMartinez\Proyects\MIsFacturas\MisFacturasWeb\obj\Release\netcoreapp3.1\Razor\Views\Movie\ListMovies.cshtml.g.cs
+C:\lMartinez\Proyects\MIsFacturas\MisFacturasWeb\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\lMartinez\Proyects\MIsFacturas\MisFacturasWeb\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\lMartinez\Proyects\MIsFacturas\MisFacturasWeb\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\lMartinez\Proyects\MIsFacturas\MisFacturasWeb\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\lMartinez\Proyects\MIsFacturas\MisFacturasWeb\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.EventLog.dll
+C:\lMartinez\Proyects\MIsFacturas\MisFacturasWeb\bin\Release\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\lMartinez\Proyects\MIsFacturas\MisFacturasWeb\bin\Release\netcoreapp3.1\SecurityModel.dll
+C:\lMartinez\Proyects\MIsFacturas\MisFacturasWeb\bin\Release\netcoreapp3.1\SecurityModel.pdb
+C:\lMartinez\Proyects\MIsFacturas\MisFacturasWeb\obj\Release\netcoreapp3.1\Razor\Views\Login\Loggin.cshtml.g.cs

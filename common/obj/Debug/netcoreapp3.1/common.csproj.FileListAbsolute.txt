@@ -1,0 +1,11 @@
+C:\lMartinez\Proyects\MIsFacturas\common\bin\Debug\netcoreapp3.1\common.deps.json
+C:\lMartinez\Proyects\MIsFacturas\common\bin\Debug\netcoreapp3.1\common.dll
+C:\lMartinez\Proyects\MIsFacturas\common\bin\Debug\netcoreapp3.1\common.pdb
+C:\lMartinez\Proyects\MIsFacturas\common\obj\Debug\netcoreapp3.1\common.csprojAssemblyReference.cache
+C:\lMartinez\Proyects\MIsFacturas\common\obj\Debug\netcoreapp3.1\common.AssemblyInfoInputs.cache
+C:\lMartinez\Proyects\MIsFacturas\common\obj\Debug\netcoreapp3.1\common.AssemblyInfo.cs
+C:\lMartinez\Proyects\MIsFacturas\common\obj\Debug\netcoreapp3.1\common.dll
+C:\lMartinez\Proyects\MIsFacturas\common\obj\Debug\netcoreapp3.1\common.pdb
+C:\lMartinez\Proyects\MIsFacturas\common\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
+C:\lMartinez\Proyects\MIsFacturas\common\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.xml
+C:\lMartinez\Proyects\MIsFacturas\common\obj\Debug\netcoreapp3.1\common.csproj.CopyComplete

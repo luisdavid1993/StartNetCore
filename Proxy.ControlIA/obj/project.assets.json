@@ -8474,11 +8474,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\lMartinez\\Proyects\\MIsFacturas\\Proxy.ControlIA\\Proxy.ControlIA.csproj",
+      "projectUniqueName": "C:\\lMartinez\\NetCore\\Proxy.ControlIA\\Proxy.ControlIA.csproj",
       "projectName": "Proxy.ControlIA",
-      "projectPath": "C:\\lMartinez\\Proyects\\MIsFacturas\\Proxy.ControlIA\\Proxy.ControlIA.csproj",
+      "projectPath": "C:\\lMartinez\\NetCore\\Proxy.ControlIA\\Proxy.ControlIA.csproj",
       "packagesPath": "C:\\Users\\lmartinez\\.nuget\\packages\\",
-      "outputPath": "C:\\lMartinez\\Proyects\\MIsFacturas\\Proxy.ControlIA\\obj\\",
+      "outputPath": "C:\\lMartinez\\NetCore\\Proxy.ControlIA\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lmartinez\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8494,8 +8494,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\lMartinez\\Proyects\\MIsFacturas\\Proxy.Base\\Proxy.Base.csproj": {
-              "projectPath": "C:\\lMartinez\\Proyects\\MIsFacturas\\Proxy.Base\\Proxy.Base.csproj"
+            "C:\\lMartinez\\NetCore\\Proxy.Base\\Proxy.Base.csproj": {
+              "projectPath": "C:\\lMartinez\\NetCore\\Proxy.Base\\Proxy.Base.csproj"
             }
           }
         }

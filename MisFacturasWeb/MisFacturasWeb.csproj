@@ -25,7 +25,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\common\common.csproj" />
     <ProjectReference Include="..\IocSecurity\IocSecurity.csproj" />
+    <ProjectReference Include="..\SecurityModel\SecurityModel.csproj" />
   </ItemGroup>
 
 

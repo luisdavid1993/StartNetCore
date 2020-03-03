@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\lMartinez\\Proyects\\MIsFacturas\\ClassLibrary1\\Proxy.Security.csproj": {}
+    "C:\\lMartinez\\NetCore\\ClassLibrary1\\Proxy.Security.csproj": {}
   },
   "projects": {
-    "C:\\lMartinez\\Proyects\\MIsFacturas\\ClassLibrary1\\Proxy.Security.csproj": {
+    "C:\\lMartinez\\NetCore\\ClassLibrary1\\Proxy.Security.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\lMartinez\\Proyects\\MIsFacturas\\ClassLibrary1\\Proxy.Security.csproj",
+        "projectUniqueName": "C:\\lMartinez\\NetCore\\ClassLibrary1\\Proxy.Security.csproj",
         "projectName": "Proxy.Security",
-        "projectPath": "C:\\lMartinez\\Proyects\\MIsFacturas\\ClassLibrary1\\Proxy.Security.csproj",
+        "projectPath": "C:\\lMartinez\\NetCore\\ClassLibrary1\\Proxy.Security.csproj",
         "packagesPath": "C:\\Users\\lmartinez\\.nuget\\packages\\",
-        "outputPath": "C:\\lMartinez\\Proyects\\MIsFacturas\\ClassLibrary1\\obj\\",
+        "outputPath": "C:\\lMartinez\\NetCore\\ClassLibrary1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lmartinez\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,11 +27,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\lMartinez\\Proyects\\MIsFacturas\\Proxy.Base\\Proxy.Base.csproj": {
-                "projectPath": "C:\\lMartinez\\Proyects\\MIsFacturas\\Proxy.Base\\Proxy.Base.csproj"
+              "C:\\lMartinez\\NetCore\\Proxy.Base\\Proxy.Base.csproj": {
+                "projectPath": "C:\\lMartinez\\NetCore\\Proxy.Base\\Proxy.Base.csproj"
               },
-              "C:\\lMartinez\\Proyects\\MIsFacturas\\SecurityModel\\SecurityModel.csproj": {
-                "projectPath": "C:\\lMartinez\\Proyects\\MIsFacturas\\SecurityModel\\SecurityModel.csproj"
+              "C:\\lMartinez\\NetCore\\SecurityModel\\SecurityModel.csproj": {
+                "projectPath": "C:\\lMartinez\\NetCore\\SecurityModel\\SecurityModel.csproj"
               }
             }
           }
@@ -45,6 +45,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.Extensions.Logging.EventLog": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
             "System.ServiceModel.Duplex": {
               "target": "Package",
               "version": "[4.4.*, )"
@@ -81,14 +85,14 @@
         }
       }
     },
-    "C:\\lMartinez\\Proyects\\MIsFacturas\\Proxy.Base\\Proxy.Base.csproj": {
+    "C:\\lMartinez\\NetCore\\Proxy.Base\\Proxy.Base.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\lMartinez\\Proyects\\MIsFacturas\\Proxy.Base\\Proxy.Base.csproj",
+        "projectUniqueName": "C:\\lMartinez\\NetCore\\Proxy.Base\\Proxy.Base.csproj",
         "projectName": "Proxy.Base",
-        "projectPath": "C:\\lMartinez\\Proyects\\MIsFacturas\\Proxy.Base\\Proxy.Base.csproj",
+        "projectPath": "C:\\lMartinez\\NetCore\\Proxy.Base\\Proxy.Base.csproj",
         "packagesPath": "C:\\Users\\lmartinez\\.nuget\\packages\\",
-        "outputPath": "C:\\lMartinez\\Proyects\\MIsFacturas\\Proxy.Base\\obj\\",
+        "outputPath": "C:\\lMartinez\\NetCore\\Proxy.Base\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lmartinez\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -104,8 +108,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\lMartinez\\Proyects\\MIsFacturas\\SecurityModel\\SecurityModel.csproj": {
-                "projectPath": "C:\\lMartinez\\Proyects\\MIsFacturas\\SecurityModel\\SecurityModel.csproj"
+              "C:\\lMartinez\\NetCore\\SecurityModel\\SecurityModel.csproj": {
+                "projectPath": "C:\\lMartinez\\NetCore\\SecurityModel\\SecurityModel.csproj"
               }
             }
           }
@@ -171,14 +175,14 @@
         }
       }
     },
-    "C:\\lMartinez\\Proyects\\MIsFacturas\\SecurityModel\\SecurityModel.csproj": {
+    "C:\\lMartinez\\NetCore\\SecurityModel\\SecurityModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\lMartinez\\Proyects\\MIsFacturas\\SecurityModel\\SecurityModel.csproj",
+        "projectUniqueName": "C:\\lMartinez\\NetCore\\SecurityModel\\SecurityModel.csproj",
         "projectName": "SecurityModel",
-        "projectPath": "C:\\lMartinez\\Proyects\\MIsFacturas\\SecurityModel\\SecurityModel.csproj",
+        "projectPath": "C:\\lMartinez\\NetCore\\SecurityModel\\SecurityModel.csproj",
         "packagesPath": "C:\\Users\\lmartinez\\.nuget\\packages\\",
-        "outputPath": "C:\\lMartinez\\Proyects\\MIsFacturas\\SecurityModel\\obj\\",
+        "outputPath": "C:\\lMartinez\\NetCore\\SecurityModel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lmartinez\\AppData\\Roaming\\NuGet\\NuGet.Config",

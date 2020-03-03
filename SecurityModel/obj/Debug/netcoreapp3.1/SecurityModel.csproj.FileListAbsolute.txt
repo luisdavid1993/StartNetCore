@@ -1,7 +1,6 @@
 C:\lMartinez\Proyects\MIsFacturas\SecurityModel\bin\Debug\netcoreapp3.1\SecurityModel.deps.json
 C:\lMartinez\Proyects\MIsFacturas\SecurityModel\bin\Debug\netcoreapp3.1\SecurityModel.dll
 C:\lMartinez\Proyects\MIsFacturas\SecurityModel\bin\Debug\netcoreapp3.1\SecurityModel.pdb
-C:\lMartinez\Proyects\MIsFacturas\SecurityModel\obj\Debug\netcoreapp3.1\SecurityModel.csprojAssemblyReference.cache
 C:\lMartinez\Proyects\MIsFacturas\SecurityModel\obj\Debug\netcoreapp3.1\SecurityModel.AssemblyInfoInputs.cache
 C:\lMartinez\Proyects\MIsFacturas\SecurityModel\obj\Debug\netcoreapp3.1\SecurityModel.AssemblyInfo.cs
 C:\lMartinez\Proyects\MIsFacturas\SecurityModel\obj\Debug\netcoreapp3.1\SecurityModel.dll

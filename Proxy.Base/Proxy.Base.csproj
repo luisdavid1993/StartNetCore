@@ -20,6 +20,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Reference Include="System.Diagnostics.EventLog">
+      <HintPath>..\..\..\..\Users\lmartinez\.nuget\packages\system.diagnostics.eventlog\4.7.0\ref\netstandard2.0\System.Diagnostics.EventLog.dll</HintPath>
+    </Reference>
     <Reference Include="System.ServiceModel.Http">
       <HintPath>..\..\..\..\Users\lmartinez\.nuget\packages\system.servicemodel.http\4.4.4\ref\netstandard2.0\System.ServiceModel.Http.dll</HintPath>
     </Reference>

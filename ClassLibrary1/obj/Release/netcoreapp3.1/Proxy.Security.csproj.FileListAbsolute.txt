@@ -9,3 +9,5 @@ C:\lMartinez\Proyects\MIsFacturas\ClassLibrary1\obj\Release\netcoreapp3.1\Proxy.
 C:\lMartinez\Proyects\MIsFacturas\ClassLibrary1\obj\Release\netcoreapp3.1\Proxy.Security.csproj.CopyComplete
 C:\lMartinez\Proyects\MIsFacturas\ClassLibrary1\obj\Release\netcoreapp3.1\Proxy.Security.dll
 C:\lMartinez\Proyects\MIsFacturas\ClassLibrary1\obj\Release\netcoreapp3.1\Proxy.Security.pdb
+C:\lMartinez\Proyects\MIsFacturas\ClassLibrary1\bin\Release\netcoreapp3.1\SecurityModel.dll
+C:\lMartinez\Proyects\MIsFacturas\ClassLibrary1\bin\Release\netcoreapp3.1\SecurityModel.pdb

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\lMartinez\\Proyects\\MIsFacturas\\SecurityModel\\SecurityModel.csproj": {}
+    "C:\\lMartinez\\NetCore\\SecurityModel\\SecurityModel.csproj": {}
   },
   "projects": {
-    "C:\\lMartinez\\Proyects\\MIsFacturas\\SecurityModel\\SecurityModel.csproj": {
+    "C:\\lMartinez\\NetCore\\SecurityModel\\SecurityModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\lMartinez\\Proyects\\MIsFacturas\\SecurityModel\\SecurityModel.csproj",
+        "projectUniqueName": "C:\\lMartinez\\NetCore\\SecurityModel\\SecurityModel.csproj",
         "projectName": "SecurityModel",
-        "projectPath": "C:\\lMartinez\\Proyects\\MIsFacturas\\SecurityModel\\SecurityModel.csproj",
+        "projectPath": "C:\\lMartinez\\NetCore\\SecurityModel\\SecurityModel.csproj",
         "packagesPath": "C:\\Users\\lmartinez\\.nuget\\packages\\",
-        "outputPath": "C:\\lMartinez\\Proyects\\MIsFacturas\\SecurityModel\\obj\\",
+        "outputPath": "C:\\lMartinez\\NetCore\\SecurityModel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lmartinez\\AppData\\Roaming\\NuGet\\NuGet.Config",
