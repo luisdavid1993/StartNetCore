@@ -1,0 +1,13 @@
+C:\lMartinez\NetCore\SerilogLogger\bin\Debug\netcoreapp3.1\SerilogLogger.deps.json
+C:\lMartinez\NetCore\SerilogLogger\bin\Debug\netcoreapp3.1\SerilogLogger.dll
+C:\lMartinez\NetCore\SerilogLogger\bin\Debug\netcoreapp3.1\SerilogLogger.pdb
+C:\lMartinez\NetCore\SerilogLogger\bin\Debug\netcoreapp3.1\CommonModel.dll
+C:\lMartinez\NetCore\SerilogLogger\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
+C:\lMartinez\NetCore\SerilogLogger\bin\Debug\netcoreapp3.1\CommonModel.pdb
+C:\lMartinez\NetCore\SerilogLogger\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.xml
+C:\lMartinez\NetCore\SerilogLogger\obj\Debug\netcoreapp3.1\SerilogLogger.csprojAssemblyReference.cache
+C:\lMartinez\NetCore\SerilogLogger\obj\Debug\netcoreapp3.1\SerilogLogger.AssemblyInfoInputs.cache
+C:\lMartinez\NetCore\SerilogLogger\obj\Debug\netcoreapp3.1\SerilogLogger.AssemblyInfo.cs
+C:\lMartinez\NetCore\SerilogLogger\obj\Debug\netcoreapp3.1\SerilogLogger.csproj.CopyComplete
+C:\lMartinez\NetCore\SerilogLogger\obj\Debug\netcoreapp3.1\SerilogLogger.dll
+C:\lMartinez\NetCore\SerilogLogger\obj\Debug\netcoreapp3.1\SerilogLogger.pdb

@@ -6,9 +6,9 @@ using Microsoft.Extensions.Configuration;
 
 namespace common
 {
-  public  class Settings
+  public static class Settings
     {
-        public string getValue(string seccion, string key)
+        public static string getValue(string seccion, string key)
         {
             try
             {

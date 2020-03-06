@@ -4,8 +4,8 @@ namespace MisFacturasWeb.Models
 {
     public class ErrorViewModel
     {
-        public string RequestId { get; set; }
+        public string UserMessage { get; set; }
+        public string site { get; set; }
 
-        public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
     }
 }

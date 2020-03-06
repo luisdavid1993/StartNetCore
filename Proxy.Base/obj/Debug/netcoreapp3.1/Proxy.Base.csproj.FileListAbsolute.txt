@@ -12,3 +12,17 @@ C:\lMartinez\Proyects\MIsFacturas\Proxy.Base\obj\Debug\netcoreapp3.1\Proxy.Base.
 C:\lMartinez\Proyects\MIsFacturas\Proxy.Base\obj\Debug\netcoreapp3.1\Proxy.Base.csproj.CopyComplete
 C:\lMartinez\Proyects\MIsFacturas\Proxy.Base\obj\Debug\netcoreapp3.1\Proxy.Base.dll
 C:\lMartinez\Proyects\MIsFacturas\Proxy.Base\obj\Debug\netcoreapp3.1\Proxy.Base.pdb
+C:\lMartinez\NetCore\Proxy.Base\bin\Debug\netcoreapp3.1\Proxy.Base.deps.json
+C:\lMartinez\NetCore\Proxy.Base\bin\Debug\netcoreapp3.1\Proxy.Base.dll
+C:\lMartinez\NetCore\Proxy.Base\bin\Debug\netcoreapp3.1\Proxy.Base.pdb
+C:\lMartinez\NetCore\Proxy.Base\bin\Debug\netcoreapp3.1\SecurityModel.dll
+C:\lMartinez\NetCore\Proxy.Base\bin\Debug\netcoreapp3.1\System.Diagnostics.EventLog.dll
+C:\lMartinez\NetCore\Proxy.Base\bin\Debug\netcoreapp3.1\System.ServiceModel.Http.dll
+C:\lMartinez\NetCore\Proxy.Base\bin\Debug\netcoreapp3.1\SecurityModel.pdb
+C:\lMartinez\NetCore\Proxy.Base\bin\Debug\netcoreapp3.1\System.Diagnostics.EventLog.xml
+C:\lMartinez\NetCore\Proxy.Base\obj\Debug\netcoreapp3.1\Proxy.Base.csprojAssemblyReference.cache
+C:\lMartinez\NetCore\Proxy.Base\obj\Debug\netcoreapp3.1\Proxy.Base.AssemblyInfoInputs.cache
+C:\lMartinez\NetCore\Proxy.Base\obj\Debug\netcoreapp3.1\Proxy.Base.AssemblyInfo.cs
+C:\lMartinez\NetCore\Proxy.Base\obj\Debug\netcoreapp3.1\Proxy.Base.csproj.CopyComplete
+C:\lMartinez\NetCore\Proxy.Base\obj\Debug\netcoreapp3.1\Proxy.Base.dll
+C:\lMartinez\NetCore\Proxy.Base\obj\Debug\netcoreapp3.1\Proxy.Base.pdb

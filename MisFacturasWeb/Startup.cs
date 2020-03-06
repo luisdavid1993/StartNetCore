@@ -1,20 +1,12 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using IocLogger;
 using IocSecurity;
-using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.DataProtection;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using MisFacturasWeb.TokenProvider;
-using MisFacturasWeb.TokenProvider.Event;
+using MisFacturasWeb.Authorization;
 
 namespace MisFacturasWeb
 {
@@ -35,8 +27,7 @@ namespace MisFacturasWeb
             services.AddMvc();
             services.AddSession();
             services.AddHttpContextAccessor();
-           
-            services.AddTransient<JwtAuthentication, JwtAuthentication>();
+            services.AddTransient<IAuthorizationFilter, AuthorizationFilterOverride>();
             services.AddCors(options =>
             {
                 options.AddPolicy(MyAllowSpecificOrigins,
@@ -45,7 +36,10 @@ namespace MisFacturasWeb
                     builder.WithOrigins("*");
                 });
             });
+            InjectSerilog.AddRegistration(services);
             InjectSecurity.AddRegistration(services);
+
+
         }
 
 
@@ -53,11 +47,12 @@ namespace MisFacturasWeb
         {
             if (env.IsDevelopment())
             {
-                app.UseDeveloperExceptionPage();
+                //app.UseDeveloperExceptionPage();
+                app.UseExceptionHandler("/Error/Handling");
             }
             else
             {
-                app.UseExceptionHandler("/Home/Error");
+                app.UseExceptionHandler("/Error/Handling");
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }

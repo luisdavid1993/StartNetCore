@@ -2696,6 +2696,20 @@
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
       },
+      "Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "3.1.2",
+          "Microsoft.Extensions.Configuration.Abstractions": "3.1.2"
+        },
+        "compile": {
+          "bin/placeholder/Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Common.dll": {}
+        }
+      },
       "Proxy.Base/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -8599,6 +8613,11 @@
         "system.xml.xpath.xmldocument.nuspec"
       ]
     },
+    "Common/1.0.0": {
+      "type": "project",
+      "path": "../common/Common.csproj",
+      "msbuildProject": "../common/Common.csproj"
+    },
     "Proxy.Base/1.0.0": {
       "type": "project",
       "path": "../Proxy.Base/Proxy.Base.csproj",
@@ -8612,6 +8631,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Common >= 1.0.0",
       "Microsoft.Extensions.Logging.EventLog >= 3.1.2",
       "Proxy.Base >= 1.0.0",
       "SecurityModel >= 1.0.0",
@@ -8647,6 +8667,9 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
+            "C:\\lMartinez\\NetCore\\common\\Common.csproj": {
+              "projectPath": "C:\\lMartinez\\NetCore\\common\\Common.csproj"
+            },
             "C:\\lMartinez\\NetCore\\Proxy.Base\\Proxy.Base.csproj": {
               "projectPath": "C:\\lMartinez\\NetCore\\Proxy.Base\\Proxy.Base.csproj"
             },

@@ -1942,6 +1942,15 @@
           }
         }
       },
+      "Common/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "3.1.2",
+          "Microsoft.Extensions.Configuration.Abstractions": "3.1.2"
+        },
+        "runtime": {
+          "Common.dll": {}
+        }
+      },
       "Proxy.Base/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.RazorPages": "2.2.5",
@@ -1960,6 +1969,7 @@
       },
       "Proxy.Security/1.0.0": {
         "dependencies": {
+          "Common": "1.0.0",
           "Microsoft.Extensions.Logging.EventLog": "3.1.2",
           "Proxy.Base": "1.0.0",
           "SecurityModel": "1.0.0",
@@ -3237,6 +3247,11 @@
       "sha512": "sha512-A/uxsWi/Ifzkmd4ArTLISMbfFs6XpRPsXZonrIqyTY70xi8t+mDtvSM5Os0RqyRDobjMBwIDHDL4NOIbkDwf7A==",
       "path": "system.xml.xpath.xmldocument/4.3.0",
       "hashPath": "system.xml.xpath.xmldocument.4.3.0.nupkg.sha512"
+    },
+    "Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Proxy.Base/1.0.0": {
       "type": "project",

@@ -1,0 +1,7 @@
+C:\lMartinez\NetCore\CommonModel\bin\Debug\netcoreapp3.1\CommonModel.deps.json
+C:\lMartinez\NetCore\CommonModel\bin\Debug\netcoreapp3.1\CommonModel.dll
+C:\lMartinez\NetCore\CommonModel\bin\Debug\netcoreapp3.1\CommonModel.pdb
+C:\lMartinez\NetCore\CommonModel\obj\Debug\netcoreapp3.1\CommonModel.AssemblyInfoInputs.cache
+C:\lMartinez\NetCore\CommonModel\obj\Debug\netcoreapp3.1\CommonModel.AssemblyInfo.cs
+C:\lMartinez\NetCore\CommonModel\obj\Debug\netcoreapp3.1\CommonModel.dll
+C:\lMartinez\NetCore\CommonModel\obj\Debug\netcoreapp3.1\CommonModel.pdb

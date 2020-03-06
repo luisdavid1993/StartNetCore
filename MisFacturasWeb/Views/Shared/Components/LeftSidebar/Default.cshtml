@@ -1,0 +1,20 @@
+﻿@model MisFacturasWeb.Models.LeftSidebarModel
+@{
+}
+<script>
+    var modelMenu = '@Html.Raw(Json.Serialize(Model))';
+    var ListaMenu = JSON.parse(modelMenu);
+</script>
+
+<header id="header">
+    @await Html.PartialAsync("_Header", Model)
+</header>
+
+<aside class="sidebar sidebar-left">
+
+    @await Html.PartialAsync("_LeftSidebar", Model)
+</aside>
+
+
+
+

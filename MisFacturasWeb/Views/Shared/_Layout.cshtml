@@ -1,33 +1,35 @@
-﻿<!DOCTYPE html>
+﻿@using CommonModel;
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - MisFacturasWeb</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" />
-    <link href="~/css/all.min.css" rel="stylesheet" />
-    <link href="~/dist/css/adminlte.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="~/favicon.ico" type="image/x-icon">
+    <link href="~/Scripts/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/Css/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/Content/Css/simple-line-icons.css" rel="stylesheet" />
+    <link href="~/Content/Css/animate.css" rel="stylesheet" />
+    <link href="~/Content/Css/jquery.steps.css" rel="stylesheet" />
+    <link href="~/Content/Css/clndr.css" rel="stylesheet" />
+    <link href="~/Content/Css/main.css" rel="stylesheet" />
+    <link href="~/Content/Site/site.css" rel="stylesheet" />
 </head>
-<body class="hold-transition">
 
-   
-        <div class="content-header">
-            <div class="container-fluid">
-                <main role="main" class="pb-3">
-
-
-                    @RenderBody()
-                </main>
-            </div>
-        </div>
-
-
-
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/dist/js/adminlte.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
+<body>
+    <section id="main-wrapper" class="theme-blue-full">
+        @if (ViewBag.ErrorMesage != null)
+        {
+            @await Html.PartialAsync("_Error", (ErrorCommon)ViewBag.ErrorMesage)
+        }
+        <section class="main-content-wrapper">
+            @RenderBody()
+        </section>
+    </section>
+    <script src="~/Scripts/lib/jquery/dist/jquery.js"></script>
+    <script src="~/Scripts/lib/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="~/Scripts/lib/bootstrap/dist/js/popper.min.js"></script>
+    <script src="~/Scripts/ManageSite/Public/LeftSidebar.js"></script>
     @RenderSection("Scripts", required: false)
 </body>
 </html>

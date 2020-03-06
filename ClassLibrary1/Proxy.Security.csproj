@@ -13,6 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\common\Common.csproj" />
     <ProjectReference Include="..\Proxy.Base\Proxy.Base.csproj" />
     <ProjectReference Include="..\SecurityModel\SecurityModel.csproj" />
   </ItemGroup>

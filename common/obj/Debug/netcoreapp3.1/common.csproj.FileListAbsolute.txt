@@ -9,3 +9,14 @@ C:\lMartinez\Proyects\MIsFacturas\common\obj\Debug\netcoreapp3.1\common.pdb
 C:\lMartinez\Proyects\MIsFacturas\common\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
 C:\lMartinez\Proyects\MIsFacturas\common\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.xml
 C:\lMartinez\Proyects\MIsFacturas\common\obj\Debug\netcoreapp3.1\common.csproj.CopyComplete
+C:\lMartinez\NetCore\common\bin\Debug\netcoreapp3.1\Common.deps.json
+C:\lMartinez\NetCore\common\bin\Debug\netcoreapp3.1\Common.dll
+C:\lMartinez\NetCore\common\bin\Debug\netcoreapp3.1\Common.pdb
+C:\lMartinez\NetCore\common\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
+C:\lMartinez\NetCore\common\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.xml
+C:\lMartinez\NetCore\common\obj\Debug\netcoreapp3.1\Common.csprojAssemblyReference.cache
+C:\lMartinez\NetCore\common\obj\Debug\netcoreapp3.1\Common.AssemblyInfoInputs.cache
+C:\lMartinez\NetCore\common\obj\Debug\netcoreapp3.1\Common.AssemblyInfo.cs
+C:\lMartinez\NetCore\common\obj\Debug\netcoreapp3.1\Common.csproj.CopyComplete
+C:\lMartinez\NetCore\common\obj\Debug\netcoreapp3.1\Common.dll
+C:\lMartinez\NetCore\common\obj\Debug\netcoreapp3.1\Common.pdb

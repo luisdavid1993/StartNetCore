@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\lMartinez\\NetCore\\common\\common.csproj": {}
+    "C:\\lMartinez\\NetCore\\common\\Common.csproj": {}
   },
   "projects": {
-    "C:\\lMartinez\\NetCore\\common\\common.csproj": {
+    "C:\\lMartinez\\NetCore\\common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\lMartinez\\NetCore\\common\\common.csproj",
-        "projectName": "common",
-        "projectPath": "C:\\lMartinez\\NetCore\\common\\common.csproj",
+        "projectUniqueName": "C:\\lMartinez\\NetCore\\common\\Common.csproj",
+        "projectName": "Common",
+        "projectPath": "C:\\lMartinez\\NetCore\\common\\Common.csproj",
         "packagesPath": "C:\\Users\\lmartinez\\.nuget\\packages\\",
         "outputPath": "C:\\lMartinez\\NetCore\\common\\obj\\",
         "projectStyle": "PackageReference",

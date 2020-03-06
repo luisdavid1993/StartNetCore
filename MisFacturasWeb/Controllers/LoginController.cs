@@ -6,40 +6,51 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.Extensions.Configuration;
 using MisFacturasWeb.Models;
-using MisFacturasWeb.TokenProvider;
 using SecurityBussines.Authenticator.IAuthenticator;
 using SecurityModel;
+using SerilogLogger.Interface;
 
 namespace MisFacturasWeb.Controllers
 {
-    public class LoginController: Controller
+    public class LoginController : Controller
     {
         public const string SessionKeyName = "SessionUser";
         public const string SessionKeyAppId = "EINVO";
-        private IAuthenticatorBussines authenticatorBussines;
-        public LoginController(IAuthenticatorBussines _authenticatorBussines)
+        public const string TempLoginFail = "TempLoginFail";
+        private readonly IAuthenticatorBussines  authenticatorBussines;
+        public readonly IEvenLog _logger;
+        public LoginController(IAuthenticatorBussines _authenticatorBussines, IEvenLog logger)
         {
+            _logger = logger;
             this.authenticatorBussines = _authenticatorBussines;
         }
         public IActionResult Loggin()
         {
-            if (HttpContext.Session.Get(SessionKeyName) != null)
-            {
-                HttpContext.Session.Clear();
-            }
+            HttpContext.Session.Clear();
+            if (TempData[TempLoginFail] != null)
+                ViewBag.TempLoginFail = true;
             return View();
         }
         [HttpPost]
         public IActionResult Loggin(LogginModel logg)
         {
-            UserAccess userAccess = authenticatorBussines.AutenticateUser(logg.Username, logg.Password, SessionKeyAppId);
-            if (userAccess != null && !string.IsNullOrEmpty(userAccess.TokenSession) && userAccess.User.CompanyId.HasValue)
+            try
             {
-                byte[] sessionUser = ConvertData.FromObjectToArrayByte(userAccess);
-                HttpContext.Session.Set(SessionKeyName, sessionUser);
-                return RedirectToAction("Index", "Home", null);
+                UserAccess userAccess = authenticatorBussines.AutenticateUser(logg.Username, logg.Password, SessionKeyAppId);
+                if (userAccess != null && !string.IsNullOrEmpty(userAccess.TokenSession) && userAccess.User.CompanyId.HasValue)
+                {
+                    byte[] sessionUser = ConvertData.FromObjectToArrayByte(userAccess);
+                    HttpContext.Session.Set(SessionKeyName, sessionUser);
+                    return RedirectToAction("Index", "Home", null);
+                }
             }
-            return View();
+            catch (Exception ex)
+            {
+                string message = "LoginController : " + ex.ToString();
+                ViewBag.ErrorMesage = _logger.Error(message, "No se puede realizar el loggin", "LoginController");
+            }
+            TempData[TempLoginFail] = true;
+            return RedirectToAction("Loggin");
         }
     }
 }

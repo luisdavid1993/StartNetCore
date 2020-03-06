@@ -1,21 +1,16 @@
-﻿@{
+﻿@using Microsoft.AspNetCore.Http
+@{
+    string SessionKeyShowLayout = "ShowLayout";
     string ValueCotext = "";
-    bool showLayout = true;
-    if (Context.User.Claims != null && Context.User.Claims.Any())
-    {
-        if (Context.User.Claims.ToList().Where(x => x.Type == "ShowLayout").Count() > 0)
-        {
-            ValueCotext = Context.User.Claims.ToList().Where(x => x.Type == "ShowLayout").FirstOrDefault().Value;
-        }
-    }
-
-    if (ValueCotext == "")
+    bool showLayout = false;
+    ValueCotext = Context.Session.GetString(SessionKeyShowLayout);
+    if (string.IsNullOrWhiteSpace(ValueCotext))
     {
         showLayout = true;
     }
     else
     {
-        showLayout = Convert.ToBoolean(ValueCotext);
+        Boolean.TryParse(ValueCotext, out showLayout);
     }
     if (showLayout)
     {

@@ -1,0 +1,15 @@
+C:\lMartinez\NetCore\IocLogger\bin\Debug\netcoreapp3.1\IocLogger.deps.json
+C:\lMartinez\NetCore\IocLogger\bin\Debug\netcoreapp3.1\IocLogger.dll
+C:\lMartinez\NetCore\IocLogger\bin\Debug\netcoreapp3.1\IocLogger.pdb
+C:\lMartinez\NetCore\IocLogger\bin\Debug\netcoreapp3.1\CommonModel.dll
+C:\lMartinez\NetCore\IocLogger\bin\Debug\netcoreapp3.1\SerilogLogger.dll
+C:\lMartinez\NetCore\IocLogger\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
+C:\lMartinez\NetCore\IocLogger\bin\Debug\netcoreapp3.1\SerilogLogger.pdb
+C:\lMartinez\NetCore\IocLogger\bin\Debug\netcoreapp3.1\CommonModel.pdb
+C:\lMartinez\NetCore\IocLogger\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.xml
+C:\lMartinez\NetCore\IocLogger\obj\Debug\netcoreapp3.1\IocLogger.csprojAssemblyReference.cache
+C:\lMartinez\NetCore\IocLogger\obj\Debug\netcoreapp3.1\IocLogger.AssemblyInfoInputs.cache
+C:\lMartinez\NetCore\IocLogger\obj\Debug\netcoreapp3.1\IocLogger.AssemblyInfo.cs
+C:\lMartinez\NetCore\IocLogger\obj\Debug\netcoreapp3.1\IocLogger.csproj.CopyComplete
+C:\lMartinez\NetCore\IocLogger\obj\Debug\netcoreapp3.1\IocLogger.dll
+C:\lMartinez\NetCore\IocLogger\obj\Debug\netcoreapp3.1\IocLogger.pdb

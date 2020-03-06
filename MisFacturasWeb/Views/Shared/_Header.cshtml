@@ -1,0 +1,45 @@
+﻿@model MisFacturasWeb.Models.LeftSidebarModel
+<!--logo start-->
+<div class="brand">
+    <a href="index.html" class="logo">
+        <img src="~/Images/logo-top.png" />
+    </a>
+</div>
+<!--logo end-->
+<ul class="nav navbar-nav navbar-left">
+    <li class="toggle-navigation toggle-left" toggle-left-sidebar></li>
+    <li class="toggle-profile hidden-xs" toggle-profile></li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+    <li class="dropdown profile hidden-xs">
+        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+            <span class="meta">
+                <span class="text">@Model.Email</span>
+                <span class="caret"></span>
+            </span>
+        </a>
+        <ul class="dropdown-menu animated flipInX" role="menu">
+            <li ng-show="false" class="ng-hide" style="display:none;">
+                <span class="arrow top"></span>
+                <h5>
+                    <p>80%</p>
+                    <small class="text-muted">Perfil Completado</small>
+                </h5>
+                <div class="progress progress-xs">
+                    <div class="progress-bar progress-bar" style="width: 80%">
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a style="cursor: pointer" ng-click="LogOut()">
+                    <span class="icon">
+                        <i class="fa fa-sign-out"></i>
+                    </span>Salir
+                </a>
+            </li>
+        </ul>
+    </li>
+    <li class="toggle-navigation toggle-right">
+        <button ng-click="toggleFullscreen()" type="button" class="btn btn-default expand" id="toggle-fullscreen"><i class="fa fa-expand"></i></button>
+    </li>
+</ul>

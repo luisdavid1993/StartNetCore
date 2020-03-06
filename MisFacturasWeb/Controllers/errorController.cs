@@ -1,95 +1,36 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using common;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using MisFacturasWeb.TokenProvider;
+using MisFacturasWeb.Models;
 
 namespace MisFacturasWeb.Controllers
 {
-    [JwtAuthentication]
-    public class errorController : BaseController
+    [AllowAnonymous]
+    public class ErrorController : Controller
     {
-        // GET: error
-        public ActionResult Index()
+        public IActionResult Handling()
         {
+            //var exceptionHandlerPathFeature = HttpContext.Features.Get<IExceptionHandlerPathFeature>();
+            //Type typeMisFacturasException = typeof(MisFacturasException);
+            //Type typeExceptionHandler = exceptionHandlerPathFeature?.Error.GetType();
+            //if (typeExceptionHandler == typeMisFacturasException)
+            //{
+            //    MisFacturasException misFacturasException = (MisFacturasException)exceptionHandlerPathFeature?.Error;
+            //    _ = misFacturasException.UserMessage;
+            //}
+            //else
+            //{
+            //    _ = Settings.getValue("AppSettings", "MensajeError");
+            //}
+            //string msg = exceptionHandlerPathFeature?.Error.ToString();
             return View();
-        }
-
-        // GET: error/Details/5
-        public ActionResult Details(int id)
-        {
-            return View();
-        }
-
-        // GET: error/Create
-        public ActionResult Create()
-        {
-            return View();
-        }
-
-        // POST: error/Create
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
-        {
-            try
-            {
-                // TODO: Add insert logic here
-
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
-
-        // GET: error/Edit/5
-        public ActionResult Edit(int id)
-        {
-            return View();
-        }
-
-        // POST: error/Edit/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
-        {
-            try
-            {
-                // TODO: Add update logic here
-
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
-
-        // GET: error/Delete/5
-        public ActionResult Delete(int id)
-        {
-            return View();
-        }
-
-        // POST: error/Delete/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
-        {
-            try
-            {
-                // TODO: Add delete logic here
-
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
         }
     }
 }
